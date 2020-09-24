@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ff414d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-section{
+    
+    margin-top: 100px;
+
+}
+
+#clock-section span{
+    font-size: 100px;
+    font-weight: 800;
+
+}
