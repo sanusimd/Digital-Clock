@@ -17,14 +17,9 @@ function clock() {
   }
 
   // CHECK IF MIDDAY
-  //   if (hours >= 12){
-  //       midday = 'AM'
-  //   }else{
-  //       midday = 'PM'
-  //   }
-
   midday = hours >= 12 ? "PM" : "AM";
 
+//   SELECT ELEMENT 
   document.querySelector(".hours").innerHTML = hours;
   document.querySelector(".minutes").innerHTML = mins;
   document.querySelector(".seconds").innerHTML = secs;
