@@ -1,2 +1,2 @@
-# Digital-Clock-
+# Digital-Clock
 Digital Clock and Alarm Project
