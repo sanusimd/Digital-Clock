@@ -17,7 +17,7 @@
         <span class="minutes"></span>
         <span class="indicator">:</span>
         <span class="seconds"></span>
-        <span class="meridan"></span>
+        <span class="meridan"> </span>
     </div>
     <div id="info-section">
       <img src="#" alt="" srcset="">
@@ -25,7 +25,20 @@
     </div>
     <div class="alarm-section">
         <h1>Alarm</h1>
+        <div class="alarm-option">
+            <select id="hours"></select>
+            <select id="mins"></select>
+            <select id="secs"></select>
+            <select id="ampm">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+        </div>
+        <button id='alarm-btn'>
+            Set Alarm
+        </button>
     </div>
+
     <div id="footer">
         <p class="footer-text"></p>
     </div>
