@@ -1,48 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Clock Project </title> 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div id="main-section">
-    <div id="header">
+      <div id="header">
         <h1>Digital Clock</h1>
-    </div>
-    <div id="clock-section">
+      </div>
+      <div id="clock-section">
         <span class="hours"></span>
         <span class="indicator">:</span>
         <span class="minutes"></span>
         <span class="indicator">:</span>
         <span class="seconds"></span>
         <span class="meridan"> </span>
-    </div>
-    <div id="info-section">
-      <img src="#" alt="" srcset="">
-      <h2>Info</h2>
-    </div>
-    <div class="alarm-section">
+      </div>
+      <div id="info-section">
+        <img src="#" alt="" srcset="" />
+        <h2>Info</h2>
+      </div>
+      <div class="alarm-section">
         <h1>Alarm</h1>
         <div class="alarm-option">
-            <select id="hours"></select>
-            <select id="mins"></select>
-            <select id="secs"></select>
-            <select id="ampm">
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-            </select>
+          <select id="hours"></select>
+          <select id="mins"></select>
+          <select id="secs"></select>
+          <select id="ampm">
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+          </select>
         </div>
-        <button id='alarm-btn'>
-            Set Alarm
-        </button>
-    </div>
+        <button id="set-alarm">Set Alarm</button>
+      </div>
 
-    <div id="footer">
+      <div id="footer">
         <p class="footer-text"></p>
+      </div>
     </div>
-</div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
