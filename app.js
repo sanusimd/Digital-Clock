@@ -65,6 +65,7 @@ addMinsSecs(minute);
 
 const startAlarm = document.querySelector("#set-alarm");
 let activeAlarm = false;
+let alarmElement;
 // let alarmElement;Addd event listener to start alarm
 startAlarm.addEventListener("click", function () {
   // disabled select option when click on Start alarm Button
